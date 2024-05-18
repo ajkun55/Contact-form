@@ -24,7 +24,7 @@
 }
 
 body{
-    min-height: 100vh;
+    height: max(100vh, 1020px);
     font-family: 'Karla';
     font-size: 16px;
     font-weight: 400;
@@ -34,7 +34,7 @@ body{
 }
 
 main{
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
